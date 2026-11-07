@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrock_ui",
+  "version": "${version}",
+  "name": "Bedrock UI",
+  "description": "Bedrock Edition style GUI for Java: big buttons, bevelled widgets, stone panels.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.bedrockui.BedrockUiClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "*", "fabric-api": "*" }
+}
